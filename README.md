@@ -1,51 +1,24 @@
+# Product Recommendation System
 
-# E-commerce Product Recommendation System
+## Overview
 
-## Introduction
+This project implements a product recommendation system using collaborative filtering techniques. It provides personalized product suggestions to users based on their historical interactions with products.
+The purpose of this project was to design and implement a product recommendation system using collaborative filtering techniques. The system aimed to provide personalized product recommendations to users based on their historical interactions and preferences. The recommendation system was built using matrix factorization and cosine similarity, ensuring efficient and accurate recommendations.
 
-This project is an implementation of an e-commerce product recommendation system. The recommendation system uses collaborative filtering to suggest products to users based on their historical interactions with the platform. Collaborative filtering is a popular approach for building recommendation systems and relies on the idea that users who have interacted with similar products in the past will be interested in similar products in the future.
+## Prerequisites
 
-## Features
+Make sure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
 
-- Collaborative filtering-based recommendation system.
-- Provides top product recommendations for users.
-- Supports multiple interaction types, such as viewing, purchasing, and rating.
-- Utilizes Fastai, a deep learning library, for model training and prediction.
+## Installation
 
-## Getting Started
+ Clone the repository:
+git clone https://github.com/roshni-1/Ecommerce-product-recommendation-system.git
 
-### Prerequisites
+## Usage
 
-- Python 3.x
-- Fastai library
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+ **Data Preparation:**
 
-### Installation
+Prepare your dataset containing user profiles, product information, and user-product interactions. Ensure the data is in the right format and structure.
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/roshni-1/ecommerce-recommendation-system.git
-
-
-### Usage
-
-Prepare your dataset:
-
-Ensure that your dataset contains columns for user IDs, product IDs, interaction types, timestamps, and ratings (if available).
-The dataset should be in a CSV format.
-Train the recommendation model:
-
-Load the dataset using Pandas.
-Preprocess and clean the data as needed.
-Train the collaborative filtering model using Fastai.
-Get recommendations:
-
-Use the trained model to get top product recommendations for specific users.
-Customize the code to suit your application's requirements.
-Visualize the results:
-
-Utilize data visualization techniques to gain insights into user interactions, product popularity, and recommendation quality.
+##  Conclusion and Future Work:
+The project successfully implemented a robust product recommendation system, providing users with personalized and relevant product suggestions.Future work could involve integrating additional features, exploring deep learning methods, and enhancing the system's scalability for large datasets.
